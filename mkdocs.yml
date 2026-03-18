@@ -1,0 +1,38 @@
+site_name: Volatus User Guide
+docs_dir: 'src'
+site_dir: 'docs'
+strict: true
+theme:
+  name: material
+
+nav:
+  - Introduction: 'index.md'
+  - Config:
+    - Basics: 'config/basics.md'
+    - Tasks:
+      - Core:
+        - Event Reporter: 'config/tasks/core/event_reporter.md'
+        - System Health: 'config/tasks/core/health.md'
+        - Software Variables: 'config/tasks/core/softvar.md'
+      - Data:
+        - Data Processor: 'config/tasks/data/processor.md'
+        - Log Manager: 'config/tasks/data/log_manager.md'
+        - Log Workers: 'config/tasks/data/log_worker.md'
+        - Historian: 'config/tasks/data/historian.md'
+      - DAQmx:
+        - Common: 'config/tasks/daqmx/common.md'
+        - Analog Input: 'config/tasks/daqmx/ai.md'
+        - Analog Output: 'config/tasks/daqmx/ao.md'
+        - Digital Input: 'config/tasks/daqmx/di.md'
+        - Digital Output: 'config/tasks/daqmx/do.md'
+      - Automation:
+        - Digital Control: 'config/tasks/auto/digital.md'
+        - Sequencer: 'config/tasks/auto/sequencer.md'
+      - GUI:
+        - GUI Manager: 'config/tasks/gui/manager.md'
+        - Plugins: 'config/tasks/gui/plugins.md'
+        - Event Viewer: 'config/tasks/gui/event_viewer.md'
+        - System Status: 'config/tasks/gui/system_status.md'
+        - Historian Charting: 'config/tasks/gui/charting.md'
+  - GUI:
+    - Overview: 'gui/overview.md'
