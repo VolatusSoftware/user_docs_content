@@ -6,12 +6,15 @@ theme:
   name: material
   logo: img/volatus.png
   favicon: img/volatus.png
+extra_css:
+  - volatus.css
 
 nav:
-  - Introduction: 'index.md'
-  - Config:
+  - Overview: 'index.md'
+  - Configuration:
     - Basics: 'config/basics.md'
     - Tasks:
+      - Overview: 'config/tasks/overview.md'
       - Core:
         - Event Reporter: 'config/tasks/core/event_reporter.md'
         - System Health: 'config/tasks/core/health.md'
@@ -38,3 +41,8 @@ nav:
         - Historian Charting: 'config/tasks/gui/charting.md'
   - GUI:
     - Overview: 'gui/overview.md'
+  - Sequencing:
+    - Overview: 'sequencing/overview.md'
+  - Architecture:
+    - Overview: 'architecture/overview.md'
+    - Networking: 'architecture/networking.md'
