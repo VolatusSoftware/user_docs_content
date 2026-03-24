@@ -4,13 +4,10 @@ site_dir: 'docs'
 strict: true
 theme:
   name: material
-  logo: img/volatus.png
-  favicon: img/volatus.png
 extra_css:
   - volatus.css
 
 nav:
-  - Overview: 'index.md'
   - Configuration:
     - Basics: 'config/basics.md'
     - Tasks:
