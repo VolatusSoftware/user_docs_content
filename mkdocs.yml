@@ -10,6 +10,7 @@ extra_css:
 nav:
   - Configuration:
     - Basics: 'config/basics.md'
+    - Management: 'config/management.md'
     - Tasks:
       - Overview: 'config/tasks/overview.md'
       - Core:
